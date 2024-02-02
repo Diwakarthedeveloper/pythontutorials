@@ -1,4 +1,0 @@
-wordcount:6hellow DJ how are you 
-wordcount:4 I love Python
-wordcount:4 I love Python
-wordcount:4 I love Python

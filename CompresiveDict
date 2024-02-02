@@ -1,7 +1,0 @@
-# comprehensive generators - try the code in python idle 
-
-cities=["mumbai","new york","paris"]
-countries=["india","usa","france"]
-z=zip(cities, countries)
-for a in z:
-    print(a)

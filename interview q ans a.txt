@@ -1,9 +1,0 @@
-what is mutable data type - data type which can be updated and modified after created are mutabele
-ex - set array lists 
-
-immutable - data type which cannot be updated and modified after created are mutable eg - double, int , float, string.
-
-Q. Diffrence between lists and tuples ?
-A. lists are mutable 
-
-TUPLE are immutable
