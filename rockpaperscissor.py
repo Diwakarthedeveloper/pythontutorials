@@ -1,19 +1,20 @@
 import random
 
+
+
+print ("Welcome to Rock Paper Scissor")
+user1score = 0
+roboscore = 0
+ties = 0
+username = input("Hey, whats your Name ?")
+print(""""
+    Winning Rules
+    1. Paper vs Rock -> Paper
+    2. Rock vs Scissor -> Rock
+    3. Paper vs Scissor -> Scissor
+    """)
+
 while True:
-
-    print ("Welcome to Rock Paper Scissor")
-    user1score = 0
-    roboscore = 0
-    ties = 0
-    username = input("Hey, whats your Name ?")
-    print(""""
-        Winning Rules
-        1. Paper vs Rock -> Paper
-        2. Rock vs Scissor -> Rock
-        3. Paper vs Scissor -> Scissor
-        """)
-
     print(""""Choices are :
         1. Rock
         2. Paper
@@ -67,27 +68,29 @@ while True:
         print("Scissor wins")
         result = "Scissors"
 
-    if result == "Tie":
-        ties +=1
+    if result == comp_choice:
+        print("Computer wins")
+        roboscore +=1
+
     elif result == user_choice:
         print(f"{username} wins")
         user1score += 1
 
     else:
-        print("computer wins")
-        roboscore +=1
+      #  result == "Tie":
+        ties +=1
 
     print ("MATCH SCORES ARE ")
     print(f'{username} Score is {user1score} ')
     print(f'Computer Score is {roboscore} ')
     print(f'Number of Tie happened are {ties} ')
 
-    repeat = input("Do you want to play again ?")
-    if repeat == "No" or repeat == "NO":
+    repeat = input("Do you want to play again, Then press Y else press no?")
+    if repeat == "no" or repeat == "NO":
         break
 
 print ("Game over!")
-print("Thanks for playing")
+print(f"Thanks for playing {username} ")
 
 
 
