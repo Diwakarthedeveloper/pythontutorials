@@ -89,7 +89,7 @@ while True:
     if repeat == "no" or repeat == "NO":
         break
 
-print ("Game over!")
+print ("**Game over**")
 print(f"Thanks for playing {username} ")
 
 
