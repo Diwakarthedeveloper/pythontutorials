@@ -1,0 +1,47 @@
+<?xml version="1.0"?>
+<root ptr="000001A631E0A0D0" id="0" symbol="class SwRootFrame" lower="1">
+ <sfxViewShells>
+  <SwView>
+   <SfxViewShell ptr="000001A631DAD030" id="0"/>
+   <SwCursorShell>
+    <SwViewShell/>
+    <m_pCurrentCursor>
+     <SwPaM>
+      <point>
+       <SwPosition nNode="9" nContent="26"/>
+      </point>
+     </SwPaM>
+    </m_pCurrentCursor>
+   </SwCursorShell>
+  </SwView>
+ </sfxViewShells>
+ <infos>
+  <bounds left="284" top="284" width="12848" height="16838" bottom="17121" right="13131" mbFixSize="false" mbFrameAreaPositionValid="true" mbFrameAreaSizeValid="true" mbFramePrintAreaValid="true"/>
+  <prtBounds left="0" top="0" width="12848" height="16838" bottom="16837" right="12847"/>
+ </infos>
+ <page ptr="000001A62CD45DF0" id="1" symbol="class SwPageFrame" upper="0" lower="2">
+  <page_status ValidFlyLayout="true" ValidFlyContent="true" ValidFlyInCnt="true" ValidLayout="true" ValidContent="true"/>
+  <page_info phyNum="1" virtNum="1" pageDesc="Default Page Style"/>
+  <infos>
+   <bounds left="1226" top="284" width="11906" height="16838" bottom="17121" right="13131" mbFixSize="true" mbFrameAreaPositionValid="true" mbFrameAreaSizeValid="true" mbFramePrintAreaValid="true"/>
+   <prtBounds left="1134" top="1134" width="9638" height="14570" bottom="15703" right="10771"/>
+  </infos>
+  <body ptr="000001A631E60ED0" id="2" symbol="class SwBodyFrame" upper="1" lower="3">
+   <infos>
+    <bounds left="2360" top="1418" width="9638" height="14570" bottom="15987" right="11997" mbFixSize="true" mbFrameAreaPositionValid="true" mbFrameAreaSizeValid="true" mbFramePrintAreaValid="true"/>
+    <prtBounds left="0" top="0" width="9638" height="14570" bottom="14569" right="9637"/>
+   </infos>
+   <txt ptr="000001A61D64B0D0" id="3" symbol="class SwTextFrame" upper="2" txtNodeIndex="9" WritingMode="Horizontal" offset="0">
+    <infos>
+     <bounds left="2360" top="1418" width="9638" height="276" bottom="1693" right="11997" mbFixSize="false" mbFrameAreaPositionValid="true" mbFrameAreaSizeValid="true" mbFramePrintAreaValid="true"/>
+     <prtBounds left="0" top="0" width="9638" height="276" bottom="275" right="9637"/>
+    </infos>
+Only for testing purposes     <SwParaPortion ptr="000001A639E867D0">
+     <SwLineLayout ptr="000001A639E867D0" symbol="class SwParaPortion" width="2735" height="276" length="26" type="PortionType::Para" portion="Only for testing purposes ">
+      <SwParaPortion ptr="000001A639E867D0" symbol="class SwParaPortion" width="2735" height="276" length="26" type="PortionType::Para" portion="Only for testing purposes "/>
+     </SwLineLayout>
+    </SwParaPortion>
+   </txt>
+  </body>
+ </page>
+</root>
