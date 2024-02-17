@@ -1,2 +1,11 @@
 import pywhatkit as kit
-kit.image_to_ascii_art("D:/data/Flag.JPG","flagascii.txt")
+
+# from PIL import Image
+# import ascii_magic
+
+# # Open the image file
+# img = Image.open("D:/data/Flag.JPG")
+
+# # Generate ASCII art
+# output = ascii_magic.from_image(img)
+# print(output)
