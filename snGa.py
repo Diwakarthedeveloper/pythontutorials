@@ -33,6 +33,14 @@ score_font = pygame.font.SysFont("comicsansms",30)
 def user_score(score):
     number = score_font.render("Score :", score, True, red)
     window.blit(number,[0,0]) # blit used to display a calculation at a place 
+
+def game_snake():
+    pass
+
+def game_loop():
+    gaveOver = False
+    gameOver = False
+
 #user_score(12)
 # fonts = pygame.font.get_fonts()
 # print(fonts)
